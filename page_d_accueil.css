@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+.paper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+
+
+.vignettes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    top: -165px;
+    right: 210px;
+    z-index: 4;
+    width: 40%;
+}
+
+.vignette {
+    width: 25%;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+.vignette.slide-down {
+    transform: translateY(100px);
+    transition: transform 0.3s ease;
+}
+
+.collant {
+    position: absolute;
+    left: 170px;
+    z-index: 100;
+    width: 16%;
+}
+.collant img {
+    width: 180%;
+}
+
+.container {
+    position: absolute;
+    height: 2000px;
+    z-index: 4;
+    top: 81%;
+    left: 8%;
+    margin-top: 1%;
+}
+
+.map {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.second-image {
+    transition: transform 0.5s ease;
+    position: absolute;
+    left: 35%;
+    top: 16%;
+    width: 20%;
+    height: auto;
+    cursor: pointer;
+}
+
+.second-image:hover {
+    transform: scale(2.2);
+}
+
+.TV {
+    position: absolute;
+    bottom: -112%;
+    z-index: 4;
+    left: 60%;
+    width: 700px;
+}
+
+.TV img {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    position: absolute;
+    z-index: 4;
+    top: 91%;
+    float: right;
+    margin-right: 107px;
+    font-size: large;
+    font-family: cursive;
+    left: 58%;
+    max-width: 80ch;
+    line-height: 205%;
+    margin-top: 35px;
+    text-align: justify;
+}
+
+
+
+.ep {
+    top: 165%;
+    position: absolute;
+    z-index: 4;
+    margin-left: 10%;
+    margin-top: 31px;
+    width: 30%
+}
+
+.Gravity {
+    top: 30%;
+    position: absolute;
+    z-index: 4;
+    margin-left: -20%;
+    margin-top: 20px;
+    width: 30%;
+    right: 35%;
+}
+
+.GF {
+    top: 75%;
+    position: absolute;
+    z-index: 4;
+    margin-left: -20%;
+    margin-top: 11px;
+    width: 25%;
+    right: 26%;
+}
+
+.eps {
+    position: absolute;
+    z-index: 4;
+    top: 190%;
+    float: right;
+    font-size: large;
+    font-family: cursive;
+    left: 15%;
+    max-width: 80ch;
+    line-height: 205%;
+    margin-top: -33px;
+    margin-left: -2%;
+    margin-right: 64%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.main1 {
+    position: absolute;
+    z-index: 6;
+    width: 5%;
+    top: 235%;
+    margin-top: 20px;
+    left: 29%;
+}
+
+.video-container {
+    position: absolute;
+    width: 37%;
+    height: auto;
+    top: 243%;
+    left: 31%;
+    text-align: center;
+    z-index: 4;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+
+.ep1 {
+    position: absolute;
+    z-index: 4;
+    width: 15%;
+    top: 220%;
+    margin-top: 35px;
+    left: 42%;
+}
+.afterp {
+    position: absolute;
+    z-index: 4;
+    top: 290%;
+    float: right;
+    margin-right: 10px;
+    font-size: large;
+    font-family: cursive;
+    left: 25%;
+    max-width: 80ch;
+    line-height: 205%;
+    margin-top: -33px;
+    text-align: center;
+}
+
+.ep2 {
+    position: absolute;
+    z-index: 6;
+    width: 15%;
+    top: 325%;
+    margin-top: -2px;
+    left: 20%;
+}
+.main2 {
+    position: absolute;
+    z-index: 6;
+    width: 5%;
+    top: 335%;
+    margin-top: -14px;
+    left: 6%;
+}
+
+.video-container2 {
+    position: absolute;
+    width: 37%;
+    height: auto;
+    bottom: -275%;
+    left: 8%;
+    z-index: 4;
+    margin-bottom: -23px;
+}
+.video-container2 video {
+    width: 100%;
+    height: auto;
+}
+.P2 {
+    position: absolute;
+    z-index: 6;
+    width: 28%;
+    top: 390%;
+    margin-top: -43px;
+    left: 12%;
+    float: right;
+    font-size: large;
+    font-family: cursive;
+    max-width: 80ch;
+    line-height: 205%;
+    text-align: center;
+}
+.ep3 {
+    position: absolute;
+    z-index: 6;
+    width: 15%;
+    top: 325%;
+    margin-top: -2px;
+    left: 68%;
+}
+.main3 {
+    position: absolute;
+    z-index: 6;
+    width: 5%;
+    top: 335%;
+    margin-top: -14px;
+    left: 54%;
+}
+.video-container3 {
+    position: absolute;
+    width: 37%;
+    height: auto;
+    bottom: -275%;
+    left: 56%;
+    z-index: 4;
+    margin-bottom: -23px;
+}
+
+.video-container3 video {
+    width: 100%;
+    height: auto;
+}
+.P3 {
+    position: absolute;
+    z-index: 6;
+    width: 28%;
+    top: 390%;
+    margin-top: -43px;
+    left: 60%;
+    float: right;
+    font-size: large;
+    font-family: cursive;
+    max-width: 80ch;
+    line-height: 205%;
+    text-align: center;
+}
+
